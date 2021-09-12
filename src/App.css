@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.query {
+  display: flex;
+  flex-direction: row;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-history {
+  display: flex;
+  flex-direction: column;
+}

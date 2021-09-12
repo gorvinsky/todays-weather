@@ -1,0 +1,131 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-bottom: 5px;
+  margin: 5px;
+  font-weight: bold;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+
+.query {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.query div {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px 5px 0px;
+}
+
+.query div input {
+  margin-right: 5px;
+}
+
+.query button {
+  cursor: pointer;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: #F8E5E5;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FF0000;
+  padding: 5px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: small;
+}
+
+.weather-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  max-width: 320px;
+  color: #666666;
+}
+
+.weather-main-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  max-width: 320px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #000000
+}
+
+.weather-col-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.weather-col-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: #000000
+}
+
+.no-search-history {
+  text-align: center;
+  color: #666666;
+}
+
+.search-history {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.search-history-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #CCCCCC;
+}
+
+.search-history-location {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0px 5px 5px 0px;
+}
+
+.search-history-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px 5px 0px;
+}
+
+.search-history-button {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 14px;
+  background-color: #EFEFEF;
+}
